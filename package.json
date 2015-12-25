@@ -1,10 +1,11 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.1.5",
-  "description": "A sample Node.js app using Express 4",
+  "name": "dashboard",
+  "version": "0.0.1",
+  "description": "A personal dashboard",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "ejs": "2.3.3",
@@ -15,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/erichaase/dashboard.git"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "license": "MIT"
+  "author": "Eric Haase",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erichaase/dashboard/issues"
+  },
+  "homepage": "https://github.com/erichaase/dashboard#readme"
 }
